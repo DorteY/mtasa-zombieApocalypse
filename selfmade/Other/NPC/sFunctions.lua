@@ -1,3 +1,10 @@
+--//                                              \\
+--||  Project: MTA - Zombie Apocalypse            ||
+--||  Developers: DORTEY#5702                     ||
+--||                                              ||
+--||  Since: 2019 (Lake-Gaming.com)               ||
+--\\                                              //
+
 local pedsTable={
 	{287,-1968.5,114.4,27.7,77,true,0,0,"Ped->Shop->Weapon","Owen Kirk","Weaponshop"},
 	{211,-2674.8,634,14.45,174,true,0,0,"Ped->Shop->Weapon","Libby Lamb","Weaponshop"},

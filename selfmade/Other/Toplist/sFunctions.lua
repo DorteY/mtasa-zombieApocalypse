@@ -1,3 +1,10 @@
+--//                                              \\
+--||  Project: MTA - Zombie Apocalypse            ||
+--||  Developers: DORTEY#5702                     ||
+--||                                              ||
+--||  Since: 2019 (Lake-Gaming.com)               ||
+--\\                                              //
+
 addEvent("Get->Toplist->Data",true)
 addEventHandler("Get->Toplist->Data",root,function(category)
 	local tbl={}

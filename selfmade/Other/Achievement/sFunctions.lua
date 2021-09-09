@@ -1,3 +1,10 @@
+--//                                              \\
+--||  Project: MTA - Zombie Apocalypse            ||
+--||  Developers: DORTEY#5702                     ||
+--||                                              ||
+--||  Since: 2019 (Lake-Gaming.com)               ||
+--\\                                              //
+
 function addPlayerAchievment(player,achievment,text,amount)
 	if(isElement(player))then
 		if(isLoggedin(player))then

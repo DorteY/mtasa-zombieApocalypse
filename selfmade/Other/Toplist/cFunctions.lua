@@ -1,3 +1,10 @@
+--//                                              \\
+--||  Project: MTA - Zombie Apocalypse            ||
+--||  Developers: DORTEY#5702                     ||
+--||                                              ||
+--||  Since: 2019 (Lake-Gaming.com)               ||
+--\\                                              //
+
 Toplist={
 	{"Kills"},{"Deaths"},{"Damage"},{"ZombieKills"},
 }

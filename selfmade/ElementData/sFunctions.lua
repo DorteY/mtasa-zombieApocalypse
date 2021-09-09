@@ -1,7 +1,9 @@
---//-----------------------------------------------\\
---||   Project      : Lakeside Roleplay - MTA:SA
---||   Author       : Lorenzo(DorteY), Bonus & iLimix
---\\-----------------------------------------------//
+--//                                              \\
+--||  Project: MTA - Zombie Apocalypse            ||
+--||  Developers: DORTEY#5702 & Bonus             ||
+--||                                              ||
+--||  Since: 2019 (Lake-Gaming.com)               ||
+--\\                                              //
 
 
 local data={}

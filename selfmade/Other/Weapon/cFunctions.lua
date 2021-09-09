@@ -1,3 +1,10 @@
+--//                                              \\
+--||  Project: MTA - Zombie Apocalypse            ||
+--||  Developers: DORTEY#5702                     ||
+--||                                              ||
+--||  Since: 2019 (Lake-Gaming.com)               ||
+--\\                                              //
+
 addEventHandler("onClientPlayerWeaponFire",localPlayer,function(weapon,ammo,ammoclip) 
 	if(weapon==33 or weapon==34 and ammoclip==0)then 
 		triggerServerEvent("Reload->Rifles",localPlayer)

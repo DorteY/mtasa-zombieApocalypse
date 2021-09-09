@@ -1,3 +1,10 @@
+--//                                              \\
+--||  Project: MTA - Zombie Apocalypse            ||
+--||  Developers: DORTEY#5702                     ||
+--||                                              ||
+--||  Since: 2019 (Lake-Gaming.com)               ||
+--\\                                              //
+
 addEvent("Create->Loot->UI",true)
 addEventHandler("Create->Loot->UI",root,function(tbl)
 	if(not isLoggedin())then

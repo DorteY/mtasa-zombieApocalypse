@@ -1,3 +1,10 @@
+--//                                              \\
+--||  Project: MTA - Zombie Apocalypse            ||
+--||  Developers: DORTEY#5702                     ||
+--||                                              ||
+--||  Since: 2019 (Lake-Gaming.com)               ||
+--\\                                              //
+
 --//Give ingame stuff
 addCommandHandler("level",function(player,cmd,typ,tplayer,amount)
 	if(isElement(player)and isLoggedin(player)and(not client or client==player))then

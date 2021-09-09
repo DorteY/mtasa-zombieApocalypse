@@ -1,10 +1,17 @@
+--//                                              \\
+--||  Project: MTA - Zombie Apocalypse            ||
+--||  Developers: DORTEY#5702                     ||
+--||                                              ||
+--||  Since: 2019 (Lake-Gaming.com)               ||
+--\\                                              //
+
 --//MySQL
 DB={
 	HOST="127.0.0.1",
 	PORT="3306",
-	NAME="DoubleZ",
-	PASS="52jfsfa@@fds978fa_9722fjal@@",
-	USER="DoubleZ",
+	NAME="",
+	PASS="",
+	USER="",
 	HANDLER=nil,
 }
 

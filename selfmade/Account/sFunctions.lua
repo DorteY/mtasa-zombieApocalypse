@@ -1,3 +1,10 @@
+--//                                              \\
+--||  Project: MTA - Zombie Apocalypse            ||
+--||  Developers: DORTEY#5702                     ||
+--||                                              ||
+--||  Since: 2019 (Lake-Gaming.com)               ||
+--\\                                              //
+
 local Table={
 	["accounts"]={
 		"AdminLevel","Hunger","Thirst","Premium","Hospitaltime","BoosttimeMoney20","BoosttimeMoney50","BoosttimeEXP20","BoosttimeEXP50",

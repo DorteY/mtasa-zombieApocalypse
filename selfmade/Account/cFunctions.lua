@@ -1,15 +1,9 @@
---[[function checkPlayerDownloadState()
-    if(not isTransferBoxActive())then
-		if(isTimer(CheckDownload))then
-			killTimer(CheckDownload)
-		end
-        triggerServerEvent("Check->Register_Login->Account",localPlayer)
-		setElementData(localPlayer,"Language",1)
-	end
-end
-addEventHandler("onClientResourceStart",resourceRoot,function()
-    CheckDownload=setTimer(checkPlayerDownloadState,250,0)
-end)]]
+--//                                              \\
+--||  Project: MTA - Zombie Apocalypse            ||
+--||  Developers: DORTEY#5702                     ||
+--||                                              ||
+--||  Since: 2019 (Lake-Gaming.com)               ||
+--\\                                              //
 
 addEvent("cdn:onClientReady",true)
 addEventHandler("cdn:onClientReady",resourceRoot,function()

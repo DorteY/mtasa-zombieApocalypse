@@ -1,3 +1,10 @@
+--//                                              \\
+--||  Project: MTA - Zombie Apocalypse            ||
+--||  Developers: DORTEY#5702                     ||
+--||                                              ||
+--||  Since: 2019 (Lake-Gaming.com)               ||
+--\\                                              //
+
 local weaponskillsTable={
 	[22]={"Colt45",69,Server.Shop.Price.Skills.Colt45},
 	[23]={"Silenced",70,Server.Shop.Price.Skills.Silenced},
