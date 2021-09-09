@@ -1,0 +1,308 @@
+<meta>
+	<info author="DorteY" type="gamemode"/>
+	<include resource="DGS" />
+	
+	<!-- Files -->
+		<!-- Fonts -->
+	<file src="Files/Fonts/Roboto.ttf" />
+	
+		<!-- Images -->
+	<cdn src="Files/Images/Bloodscreen.png" />
+	<cdn src="Files/Images/VIP.png" />
+	<cdn src="Files/Images/Delete.png" />
+	<cdn src="Files/Images/Reset.png" />
+	<cdn src="Files/Images/Cursor.png" />
+	<cdn src="Files/Images/Bar.png" />
+	
+	<cdn src="Files/Images/RegisterLogin/BG_1.png" />
+	<cdn src="Files/Images/RegisterLogin/BG_2.png" />
+	<cdn src="Files/Images/RegisterLogin/BG_3.png" />
+	<cdn src="Files/Images/RegisterLogin/Username.png" />
+	<cdn src="Files/Images/RegisterLogin/Password.png" />
+	<cdn src="Files/Images/RegisterLogin/Mail.png" />
+	
+	<cdn src="Files/Images/Inventory/Pastacan.png" />
+	<cdn src="Files/Images/Inventory/Ravioli.png" />
+	<cdn src="Files/Images/Inventory/Pepsi.png" />
+	<cdn src="Files/Images/Inventory/Cola.png" />
+	<cdn src="Files/Images/Inventory/Fuelcan.png" />
+	<cdn src="Files/Images/Inventory/Repairkit.png" />
+	<cdn src="Files/Images/Inventory/Category/Backpack.png" />
+	<cdn src="Files/Images/Inventory/Category/Food.png" />
+	<cdn src="Files/Images/Inventory/Category/Clothing.png" />
+	<cdn src="Files/Images/Inventory/Category/Other.png" />
+	
+	<cdn src="Files/Images/Boost/XP.png" />
+	<cdn src="Files/Images/Boost/Boost_EXP_20.png" />
+	<cdn src="Files/Images/Boost/Boost_EXP_50.png" />
+	<cdn src="Files/Images/Boost/Boost_Money_20.png" />
+	<cdn src="Files/Images/Boost/Boost_Money_50.png" />
+	
+	<cdn src="Files/Images/Skins/0.png" />
+	<cdn src="Files/Images/Skins/7.png" />
+	<cdn src="Files/Images/Skins/11.png" />
+	<cdn src="Files/Images/Skins/12.png" />
+	<cdn src="Files/Images/Skins/13.png" />
+	<cdn src="Files/Images/Skins/31.png" />
+	
+	<cdn src="Files/Images/Nametag/Typing.png" />
+	
+	<cdn src="Files/Images/Keys/MouseL.png" />
+	
+	<file src="Files/Images/Radar/Map.png" />
+	<cdn src="Files/Images/Radar/Blips/Player.png" />
+	
+	<cdn src="Files/Images/Language/German.png" />
+	<cdn src="Files/Images/Language/English.png" />
+	
+	<cdn src="Files/Images/Hud/Armor.png" />
+	<cdn src="Files/Images/Hud/Health.png" />
+	<cdn src="Files/Images/Hud/Hunger.png" />
+	<cdn src="Files/Images/Hud/Coins.png" />
+	<cdn src="Files/Images/Hud/Thirst.png" />
+	<cdn src="Files/Images/Hud/Circle.png" />
+	<cdn src="Files/Images/Hud/Ping.png" />
+	<cdn src="Files/Images/Hud/FPS.png" />
+	<cdn src="Files/Images/Hud/Speedo/Background.png" />
+	<cdn src="Files/Images/Hud/Speedo/BackgroundFuel.png" />
+	<cdn src="Files/Images/Hud/Speedo/BackgroundNumbers.png" />
+	<cdn src="Files/Images/Hud/Speedo/Needle.png" />
+	<cdn src="Files/Images/Hud/Speedo/NeedleFuel.png" />
+	<cdn src="Files/Images/Hud/Speedo/FuelNumbers.png" />
+	<cdn src="Files/Images/Hud/Speedo/Engine.png" />
+	<cdn src="Files/Images/Hud/Speedo/Light.png" />
+	<cdn src="Files/Images/Hud/Weapons/0.png" />
+	<cdn src="Files/Images/Hud/Weapons/1.png" />
+	<cdn src="Files/Images/Hud/Weapons/2.png" />
+	<cdn src="Files/Images/Hud/Weapons/3.png" />
+	<cdn src="Files/Images/Hud/Weapons/4.png" />
+	<cdn src="Files/Images/Hud/Weapons/5.png" />
+	<cdn src="Files/Images/Hud/Weapons/6.png" />
+	<cdn src="Files/Images/Hud/Weapons/7.png" />
+	<cdn src="Files/Images/Hud/Weapons/8.png" />
+	<cdn src="Files/Images/Hud/Weapons/9.png" />
+	<cdn src="Files/Images/Hud/Weapons/10.png" />
+	<cdn src="Files/Images/Hud/Weapons/11.png" />
+	<cdn src="Files/Images/Hud/Weapons/12.png" />
+	<cdn src="Files/Images/Hud/Weapons/14.png" />
+	<cdn src="Files/Images/Hud/Weapons/15.png" />
+	<cdn src="Files/Images/Hud/Weapons/16.png" />
+	<cdn src="Files/Images/Hud/Weapons/17.png" />
+	<cdn src="Files/Images/Hud/Weapons/18.png" />
+	<cdn src="Files/Images/Hud/Weapons/22.png" />
+	<cdn src="Files/Images/Hud/Weapons/23.png" />
+	<cdn src="Files/Images/Hud/Weapons/24.png" />
+	<cdn src="Files/Images/Hud/Weapons/25.png" />
+	<cdn src="Files/Images/Hud/Weapons/26.png" />
+	<cdn src="Files/Images/Hud/Weapons/27.png" />
+	<cdn src="Files/Images/Hud/Weapons/28.png" />
+	<cdn src="Files/Images/Hud/Weapons/29.png" />
+	<cdn src="Files/Images/Hud/Weapons/30.png" />
+	<cdn src="Files/Images/Hud/Weapons/31.png" />
+	<cdn src="Files/Images/Hud/Weapons/32.png" />
+	<cdn src="Files/Images/Hud/Weapons/33.png" />
+	<cdn src="Files/Images/Hud/Weapons/34.png" />
+	<cdn src="Files/Images/Hud/Weapons/35.png" />
+	<cdn src="Files/Images/Hud/Weapons/36.png" />
+	<cdn src="Files/Images/Hud/Weapons/37.png" />
+	<cdn src="Files/Images/Hud/Weapons/38.png" />
+	<cdn src="Files/Images/Hud/Weapons/39.png" />
+	<cdn src="Files/Images/Hud/Weapons/40.png" />
+	<cdn src="Files/Images/Hud/Weapons/41.png" />
+	<cdn src="Files/Images/Hud/Weapons/42.png" />
+	<cdn src="Files/Images/Hud/Weapons/43.png" />
+	
+		<!-- Sounds -->
+	<file src="Files/Sounds/Downloading.mp3" />
+	<cdn src="Files/Sounds/RegisterLogin.mp3" />
+	<cdn src="Files/Sounds/Wasted.mp3" />
+	<cdn src="Files/Sounds/Message.mp3" />
+	
+	<cdn src="Files/Sounds/Vehicle/LightOn.mp3" />
+	<cdn src="Files/Sounds/Vehicle/LightOff.mp3" />
+	<cdn src="Files/Sounds/Vehicle/Motor_Bike.mp3" />
+	<cdn src="Files/Sounds/Vehicle/Motor_LKW.mp3" />
+	<cdn src="Files/Sounds/Vehicle/Motor_New.mp3" />
+	<cdn src="Files/Sounds/Vehicle/Motor_Old.mp3" />
+	<cdn src="Files/Sounds/Vehicle/Motor_Stop.mp3" />
+	
+	<cdn src="Files/Sounds/Hitglocke/1.mp3" />
+	<cdn src="Files/Sounds/Hitglocke/2.mp3" />
+	<cdn src="Files/Sounds/Hitglocke/3.mp3" />
+	
+	<cdn src="Files/Sounds/Infobox/Error.mp3" />
+	<cdn src="Files/Sounds/Infobox/Warning.mp3" />
+	<cdn src="Files/Sounds/Infobox/Success.mp3" />
+	<cdn src="Files/Sounds/Infobox/Info.mp3" />
+		<!-- Models -->
+	<cdn src="Files/Models/Skins/Players/7.dff" />
+	<cdn src="Files/Models/Skins/Players/7.txd" />
+	<cdn src="Files/Models/Skins/Players/11.dff" />
+	<cdn src="Files/Models/Skins/Players/11.txd" />
+	<cdn src="Files/Models/Skins/Players/12.dff" />
+	<cdn src="Files/Models/Skins/Players/12.txd" />
+	<cdn src="Files/Models/Skins/Players/13.dff" />
+	<cdn src="Files/Models/Skins/Players/13.txd" />
+	<cdn src="Files/Models/Skins/Players/31.dff" />
+	<cdn src="Files/Models/Skins/Players/31.txd" />
+	
+	<cdn src="Files/Models/Weapons/AK74.dff" />
+    <cdn src="Files/Models/Weapons/AK74.txd" />
+	<cdn src="Files/Models/Weapons/M4.dff" />
+    <cdn src="Files/Models/Weapons/M4.txd" />
+    <cdn src="Files/Models/Weapons/Colt45.dff" />
+    <cdn src="Files/Models/Weapons/Colt45.txd" />
+    <cdn src="Files/Models/Weapons/Deagle.dff" />
+    <cdn src="Files/Models/Weapons/Deagle.txd" />
+    <cdn src="Files/Models/Weapons/MP5.dff" />
+    <cdn src="Files/Models/Weapons/MP5.txd" />
+    <cdn src="Files/Models/Weapons/Sniper.dff" />
+    <cdn src="Files/Models/Weapons/Sniper.txd" />
+    <cdn src="Files/Models/Weapons/Shotgun.dff" />
+    <cdn src="Files/Models/Weapons/Shotgun.txd" />
+    <cdn src="Files/Models/Weapons/Rifle.dff" />
+    <cdn src="Files/Models/Weapons/Rifle.txd" />
+    <cdn src="Files/Models/Weapons/Bomb.dff" />
+    <cdn src="Files/Models/Weapons/Bomb.txd" />
+    <cdn src="Files/Models/Weapons/Satchel.dff" />
+    <cdn src="Files/Models/Weapons/Satchel.txd" />
+    <cdn src="Files/Models/Weapons/RocketLauncher.dff" />
+    <cdn src="Files/Models/Weapons/RocketLauncher.txd" />
+    <cdn src="Files/Models/Weapons/RocketLauncherHS.dff" />
+    <cdn src="Files/Models/Weapons/RocketLauncherHS.txd" />
+    <cdn src="Files/Models/Weapons/Molotov.dff" />
+    <cdn src="Files/Models/Weapons/Molotov.txd" />
+    <cdn src="Files/Models/Weapons/Grenade.dff" />
+    <cdn src="Files/Models/Weapons/Grenade.txd" />
+    <cdn src="Files/Models/Weapons/Flamethrower.dff" />
+    <cdn src="Files/Models/Weapons/Flamethrower.txd" />
+    <cdn src="Files/Models/Weapons/CombatShotgun.dff" />
+    <cdn src="Files/Models/Weapons/CombatShotgun.txd" />
+	
+	<cdn src="Files/Models/Vehicles/411.dff" />
+    <cdn src="Files/Models/Vehicles/411.txd" />
+    <cdn src="Files/Models/Vehicles/575.dff" />
+    <cdn src="Files/Models/Vehicles/575.txd" />
+    <cdn src="Files/Models/Vehicles/558.dff" />
+    <cdn src="Files/Models/Vehicles/558.txd" />
+    <cdn src="Files/Models/Vehicles/542.dff" />
+    <cdn src="Files/Models/Vehicles/542.txd" />
+    <cdn src="Files/Models/Vehicles/547.dff" />
+    <cdn src="Files/Models/Vehicles/547.txd" />
+    <cdn src="Files/Models/Vehicles/433.dff" />
+    <cdn src="Files/Models/Vehicles/433.txd" />
+    <cdn src="Files/Models/Vehicles/527.dff" />
+    <cdn src="Files/Models/Vehicles/527.txd" />
+    <cdn src="Files/Models/Vehicles/445.dff" />
+    <cdn src="Files/Models/Vehicles/445.txd" />
+    <cdn src="Files/Models/Vehicles/549.dff" />
+    <cdn src="Files/Models/Vehicles/549.txd" />
+	
+	<cdn src="Files/Models/civicar.col" />
+    <cdn src="Files/Models/civicar.dff" />
+    <cdn src="Files/Models/civicar.txd" />
+	<cdn src="Files/Models/busstop.col" />
+    <cdn src="Files/Models/busstop.dff" />
+    <cdn src="Files/Models/busstop.txd" />
+	<cdn src="Files/Models/pinwheel.col" />
+    <cdn src="Files/Models/pinwheel.dff" />
+    <cdn src="Files/Models/pinwheel.txd" />
+	<cdn src="Files/Models/transporter.col" />
+    <cdn src="Files/Models/transporter.dff" />
+    <cdn src="Files/Models/transporter.txd" />
+	<cdn src="Files/Models/tower.col" />
+    <cdn src="Files/Models/tower.dff" />
+    <cdn src="Files/Models/tower.txd" />
+	<cdn src="Files/Models/taxicar.col" />
+    <cdn src="Files/Models/taxicar.dff" />
+    <cdn src="Files/Models/taxicar.txd" />
+	<cdn src="Files/Models/police.col" />
+    <cdn src="Files/Models/police.dff" />
+    <cdn src="Files/Models/police.txd" />
+    <cdn src="Files/Models/baracke.col" />
+    <cdn src="Files/Models/baracke.dff" />
+    <cdn src="Files/Models/baracke.txd" />
+	<cdn src="Files/Models/fence.col" />
+    <cdn src="Files/Models/fence.dff" />
+    <cdn src="Files/Models/fence.txd" />
+	<cdn src="Files/Models/firetruck.col" />
+    <cdn src="Files/Models/firetruck.dff" />
+    <cdn src="Files/Models/firetruck.txd" />
+	<cdn src="Files/Models/hospital.col" />
+    <cdn src="Files/Models/hospital.dff" />
+    <cdn src="Files/Models/hospital.txd" />
+	<cdn src="Files/Models/policecar.col" />
+    <cdn src="Files/Models/policecar.dff" />
+    <cdn src="Files/Models/policecar.txd" />
+    <cdn src="Files/Models/schoolbus.col" />
+    <cdn src="Files/Models/schoolbus.dff" />
+    <cdn src="Files/Models/schoolbus.txd" />
+    <cdn src="Files/Models/fire.col" />
+    <cdn src="Files/Models/fire.dff" />
+    <cdn src="Files/Models/fire.txd" />
+	<cdn src="Files/Models/hangar.col" />
+    <cdn src="Files/Models/hangar.dff" />
+    <cdn src="Files/Models/hangar.txd" />
+		<!-- Maps -->
+	<map src="Files/Maps/Apocalypse.map" />
+	
+	<!-- Main -->
+	<script src="shFunctions.lua" type="shared" cache="false" />
+	<script src="cFunctions.lua" type="client" cache="false" />
+	<script src="sFunctions.lua" type="server" />
+	<script src="ElementData/cFunctions.lua" type="client" cache="false" />
+	<script src="ElementData/sFunctions.lua" type="server" />
+	<script src="Files/Maps/cFunctions.lua" type="client" cache="false" />
+	<script src="Files/Maps/sFunctions.lua" type="server" />
+	<script src="Other/Downloader/cFunctions.lua" type="client" cache="false" />
+	<script src="Other/Downloader/sFunctions.lua" type="server" />
+	
+	<!-- Account -->
+	<script src="Account/cFunctions.lua" type="client" cache="false" />
+	<script src="Account/sFunctions.lua" type="server" />
+	
+	<!-- Admin -->
+	<script src="Admin/cFunctions.lua" type="client" cache="false" />
+	<script src="Admin/sFunctions.lua" type="server" />
+	
+	<!-- Display -->
+	<script src="Display/cHud.lua" type="client" cache="false" />
+	<script src="Display/cInfobox.lua" type="client" cache="false" />
+	<script src="Display/cTablist.lua" type="client" cache="false" />
+	<script src="Display/cRadar.lua" type="client" cache="false" />
+	<script src="Display/cBigmap.lua" type="client" cache="false" />
+	<script src="Display/cNametag.lua" type="client" cache="false" />
+	<script src="Display/cWallhack.lua" type="client" cache="false" />
+	
+	<!-- Inventory -->
+	<script src="Inventory/cFunctions.lua" type="client" cache="false" />
+	<script src="Inventory/sFunctions.lua" type="server" />
+	
+	<!-- Other -->
+	<script src="Other/cFunctions.lua" type="client" cache="false" />
+	<script src="Other/sFunctions.lua" type="server" />
+	
+	<script src="Other/Chats/sFunctions.lua" type="server" />
+	
+	<script src="Other/Damage/cFunctions.lua" type="client" cache="false" />
+	<script src="Other/Damage/sFunctions.lua" type="server" />
+	<script src="Other/Loot/cFunctions.lua" type="client" cache="false" />
+	<script src="Other/Loot/sFunctions.lua" type="server" />
+	<script src="Other/Shop/cFunctions.lua" type="client" cache="false" />
+	<script src="Other/Shop/sFunctions.lua" type="server" />
+	<script src="Other/Weapon/cFunctions.lua" type="client" cache="false" />
+	<script src="Other/Weapon/sFunctions.lua" type="server" />
+	<script src="Other/Logs/cFunctions.lua" type="client" cache="false" />
+	<script src="Other/Logs/sFunctions.lua" type="server" />
+	<script src="Other/Toplist/cFunctions.lua" type="client" cache="false" />
+	<script src="Other/Toplist/sFunctions.lua" type="server" />
+	<script src="Other/NPC/cFunctions.lua" type="client" cache="false" />
+	<script src="Other/NPC/sFunctions.lua" type="server" />
+	<script src="Other/Ghostmode/cFunctions.lua" type="client" cache="false" />
+	<script src="Other/Ghostmode/sFunctions.lua" type="server" />
+	<script src="Other/Achievement/cFunctions.lua" type="client" cache="false" />
+	<script src="Other/Achievement/sFunctions.lua" type="server" />
+	
+	<script src="Vehicle/cFunctions.lua" type="client" cache="false" />
+	<script src="Vehicle/sFunctions.lua" type="server" />
+</meta>
