@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Erstellungszeit: 09. Aug 2021 um 02:44
+-- Erstellungszeit: 09. Sep 2021 um 13:30
 -- Server-Version: 10.1.48-MariaDB-0+deb9u2
 -- PHP-Version: 7.4.21
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Datenbank: `DoubleZ`
+-- Datenbank: `mta_other`
 --
 
 -- --------------------------------------------------------
@@ -43,13 +43,6 @@ CREATE TABLE `accounts` (
   `BoosttimeEXP50` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Daten für Tabelle `accounts`
---
-
-INSERT INTO `accounts` (`Username`, `Password`, `Serial`, `Email`, `AdminLevel`, `Hunger`, `Thirst`, `Premium`, `Hospitaltime`, `BoosttimeMoney20`, `BoosttimeMoney50`, `BoosttimeEXP20`, `BoosttimeEXP50`) VALUES
-('DORTEY', '36B08EA5509A3EDBF87D38AD140C1CAE', '5191741633FC93743DDA1F35B3CA6954', 'dortey@outlook.de', 4, 35, 22, 1, 0, 29, 29, 0, 0);
-
 -- --------------------------------------------------------
 
 --
@@ -63,13 +56,6 @@ CREATE TABLE `achievement` (
   `1000ZombieKills` int(11) NOT NULL DEFAULT '0',
   `10000ZombieKills` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Daten für Tabelle `achievement`
---
-
-INSERT INTO `achievement` (`Username`, `FirstPlayerKill`, `FirstZombieKill`, `1000ZombieKills`, `10000ZombieKills`) VALUES
-('DORTEY', 0, 1, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -102,7 +88,7 @@ CREATE TABLE `counter` (
 --
 
 INSERT INTO `counter` (`Lootbox`, `Vehicles`, `Itemdepot`) VALUES
-(168, 4, 2);
+(168, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -132,13 +118,6 @@ CREATE TABLE `inventory` (
   `Boost_EXP20` int(11) NOT NULL DEFAULT '0',
   `Boost_EXP50` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Daten für Tabelle `inventory`
---
-
-INSERT INTO `inventory` (`Username`, `Coins`, `Pastacan`, `Ravioli`, `Pepsi`, `Cola`, `Fuelcan`, `Repairkit`, `FirstAidKit`, `Weapondepot`, `Itemdepot`, `Skin_7`, `Skin_11`, `Skin_12`, `Skin_13`, `Skin_31`, `Boost_Money20`, `Boost_Money50`, `Boost_EXP20`, `Boost_EXP50`) VALUES
-('DORTEY', 100000299, 3, 3, 5, 5, 0, 0, 2, 1, 1, 1, 1, 1, 1, 1, 54, 54, 55, 55);
 
 -- --------------------------------------------------------
 
@@ -362,13 +341,6 @@ CREATE TABLE `premiumtime` (
   `Time` int(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Daten für Tabelle `premiumtime`
---
-
-INSERT INTO `premiumtime` (`Username`, `Date`, `Time`) VALUES
-('DORTEY', '2021-08-08 22:26:12', 1062270746);
-
 -- --------------------------------------------------------
 
 --
@@ -389,13 +361,6 @@ CREATE TABLE `settings` (
   `RenderdistanceCustom` int(11) NOT NULL DEFAULT '100'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Daten für Tabelle `settings`
---
-
-INSERT INTO `settings` (`Username`, `SpawnX`, `SpawnY`, `SpawnZ`, `SpawnROT`, `SpawnINT`, `SpawnDIM`, `SkinID`, `Hitglocke`, `RenderdistanceWorld`, `RenderdistanceCustom`) VALUES
-('DORTEY', '-1989.071289', '163.370117', '27.539062', '26.754852', '0', '0', 12, 4, 2000, 100);
-
 -- --------------------------------------------------------
 
 --
@@ -412,13 +377,6 @@ CREATE TABLE `stats` (
   `Level` int(11) NOT NULL DEFAULT '1',
   `EXP` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Daten für Tabelle `stats`
---
-
-INSERT INTO `stats` (`Username`, `Playtime`, `Kills`, `Deaths`, `Damage`, `ZombieKills`, `Level`, `EXP`) VALUES
-('DORTEY', 76, 0, 1, 0, 2, 1, 42);
 
 -- --------------------------------------------------------
 
@@ -439,13 +397,6 @@ CREATE TABLE `vehicles` (
   `Health` mediumint(3) NOT NULL DEFAULT '1000'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Daten für Tabelle `vehicles`
---
-
-INSERT INTO `vehicles` (`ID`, `VehID`, `SpawnX`, `SpawnY`, `SpawnZ`, `RotX`, `RotY`, `RotZ`, `Fuel`, `Health`) VALUES
-(3, 411, '-1986.596680', '147.901367', '27.130974', '359.961548', '355.017700', '356.066895', 38, 1000);
-
 -- --------------------------------------------------------
 
 --
@@ -458,14 +409,6 @@ CREATE TABLE `weapondepots` (
   `WeaponID` int(11) NOT NULL,
   `WeaponAmmo` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Daten für Tabelle `weapondepots`
---
-
-INSERT INTO `weapondepots` (`ID`, `Username`, `WeaponID`, `WeaponAmmo`) VALUES
-(2, 'DORTEY', 24, 714),
-(3, 'DORTEY', 24, 462);
 
 -- --------------------------------------------------------
 
@@ -488,13 +431,6 @@ CREATE TABLE `weaponskills` (
   `Sniper` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Daten für Tabelle `weaponskills`
---
-
-INSERT INTO `weaponskills` (`Username`, `Colt45`, `Silenced`, `Deagle`, `Shotgun`, `Sawedoff`, `Uzi`, `Mp5`, `AK47`, `M4`, `Rifle`, `Sniper`) VALUES
-('DORTEY', 999, 999, 999, 999, 999, 999, 999, 999, 999, 0, 999);
-
 -- --------------------------------------------------------
 
 --
@@ -506,13 +442,6 @@ CREATE TABLE `whitelist` (
   `Serial` varchar(50) NOT NULL,
   `Access` varchar(25) NOT NULL DEFAULT 'No'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Daten für Tabelle `whitelist`
---
-
-INSERT INTO `whitelist` (`Name`, `Serial`, `Access`) VALUES
-('DORTEY', '5191741633FC93743DDA1F35B3CA6954', 'Yes');
 
 --
 -- Indizes der exportierten Tabellen
@@ -616,7 +545,7 @@ ALTER TABLE `whitelist`
 -- AUTO_INCREMENT für Tabelle `weapondepots`
 --
 ALTER TABLE `weapondepots`
-  MODIFY `ID` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `ID` int(50) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
